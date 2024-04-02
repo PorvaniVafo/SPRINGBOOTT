@@ -1,19 +1,19 @@
 package User;
 
-import response.UserResponseDTO;
-import reuest.UserRequestDTO;
 import entity.User;
 import mappers.UserMapper;
-import repositories.UserRepository;
-import services.impl.UserServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import repositories.UserRepository;
+import response.UserResponseDTO;
+import reuest.UserRequestDTO;
+import services.impl.UserServiceImpl;
 
-import static org.hibernate.validator.internal.util.Contracts.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.when;
 
 public class UserServiceTest {
@@ -37,7 +37,7 @@ public class UserServiceTest {
         UserRequestDTO requestDTO = new UserRequestDTO();
         requestDTO.setUsername("testUser");
         requestDTO.setEmail("test@example.com");
-        requestDTO.setPassword("password");
+        requestDTO.setPassword("123456");
 
         User user = new User();
         user.setId(1L);
