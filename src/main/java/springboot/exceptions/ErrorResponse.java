@@ -1,4 +1,4 @@
-package exceptions;
+package springboot.exceptions;
 
 public class ErrorResponse {
     private final String error;

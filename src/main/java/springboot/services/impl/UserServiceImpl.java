@@ -1,13 +1,13 @@
-package services.impl;
+package springboot.services.impl;
 
 
-import response.UserResponseDTO;
-import reuest.UserRequestDTO;
-import entity.User;
-import exceptions.GeneralException;
-import mappers.UserMapper;
-import repositories.UserRepository;
-import services.UserService;
+import springboot.response.UserResponseDTO;
+import springboot.reuest.UserRequestDTO;
+import springboot.entity.User;
+import springboot.exceptions.GeneralException;
+import springboot.mappers.UserMapper;
+import springboot.repositories.UserRepository;
+import springboot.services.UserService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

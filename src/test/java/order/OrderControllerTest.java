@@ -1,9 +1,9 @@
 package order;
 
-import controllers.OrderController;
-import response.OrderResponseDTO;
-import reuest.OrderRequestDTO;
-import services.OrderService;
+import springboot.controllers.OrderController;
+import springboot.response.OrderResponseDTO;
+import springboot.reuest.OrderRequestDTO;
+import springboot.services.OrderService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

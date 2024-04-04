@@ -1,6 +1,6 @@
-package repositories;
+package springboot.repositories;
 
-import entity.Product;
+import springboot.entity.Product;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

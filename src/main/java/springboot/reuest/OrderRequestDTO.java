@@ -1,7 +1,7 @@
-package reuest;
+package springboot.reuest;
 
-import entity.Product;
-import entity.User;
+import springboot.entity.Product;
+import springboot.entity.User;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 

@@ -1,12 +1,12 @@
 package order;
 
-import reuest.OrderRequestDTO;
-import response.OrderResponseDTO;
-import entity.Order;
-import entity.Product;
-import entity.User;
-import repositories.OrderRepository;
-import services.impl.OrderServiceImpl;
+import springboot.reuest.OrderRequestDTO;
+import springboot.response.OrderResponseDTO;
+import springboot.entity.Order;
+import springboot.entity.Product;
+import springboot.entity.User;
+import springboot.repositories.OrderRepository;
+import springboot.services.impl.OrderServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

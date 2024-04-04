@@ -1,7 +1,7 @@
-package services;
+package springboot.services;
 
-import response.UserResponseDTO;
-import reuest.UserRequestDTO;
+import springboot.response.UserResponseDTO;
+import springboot.reuest.UserRequestDTO;
 
 import java.util.List;
 

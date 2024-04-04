@@ -1,4 +1,4 @@
-package reuest;
+package springboot.reuest;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.Data;

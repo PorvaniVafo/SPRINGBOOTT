@@ -1,11 +1,12 @@
-package controllers;
+package springboot.controllers;
 
-import response.UserResponseDTO;
-import reuest.UserRequestDTO;
-import services.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import springboot.response.UserResponseDTO;
+import springboot.reuest.UserRequestDTO;
+import springboot.services.UserService;
+
 
 import java.util.List;
 

@@ -1,16 +1,16 @@
 package User;
 
-import entity.User;
-import mappers.UserMapper;
+import springboot.entity.User;
+import springboot.mappers.UserMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import repositories.UserRepository;
-import response.UserResponseDTO;
-import reuest.UserRequestDTO;
-import services.impl.UserServiceImpl;
+import springboot.repositories.UserRepository;
+import springboot.response.UserResponseDTO;
+import springboot.reuest.UserRequestDTO;
+import springboot.services.impl.UserServiceImpl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;

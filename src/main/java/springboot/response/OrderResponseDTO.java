@@ -1,6 +1,6 @@
-package response;
+package springboot.response;
 
-import entity.Product;
+import springboot.entity.Product;
 import lombok.Data;
 
 import java.time.LocalDateTime;

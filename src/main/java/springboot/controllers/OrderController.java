@@ -1,8 +1,8 @@
-package controllers;
+package springboot.controllers;
 
-import response.OrderResponseDTO;
-import reuest.OrderRequestDTO;
-import services.OrderService;
+import springboot.response.OrderResponseDTO;
+import springboot.reuest.OrderRequestDTO;
+import springboot.services.OrderService;
 import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

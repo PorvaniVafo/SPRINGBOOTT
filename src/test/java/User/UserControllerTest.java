@@ -1,9 +1,9 @@
 package User;
 
-import controllers.UserController;
-import reuest.UserRequestDTO;
-import response.UserResponseDTO;
-import services.UserService;
+import springboot.controllers.UserController;
+import springboot.reuest.UserRequestDTO;
+import springboot.response.UserResponseDTO;
+import springboot.services.UserService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
