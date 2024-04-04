@@ -56,6 +56,21 @@
             <artifactId>jakarta.validation-api</artifactId>
             <version>3.0.2</version>
         </dependency>
+
+            <!-- Spring Boot Starter -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter</artifactId>
+                <version>3.2.4</version> <!-- Adjust version as needed -->
+            </dependency>
+
+            <!-- Spring Data JDBC -->
+            <dependency>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-jdbc</artifactId>
+                <version>3.2.4</version> <!-- Adjust version as needed -->
+            </dependency>
+
     </dependencies>
 
     <build>
