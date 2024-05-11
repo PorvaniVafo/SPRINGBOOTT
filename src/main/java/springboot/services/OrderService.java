@@ -1,7 +1,7 @@
 package springboot.services;
 
 import springboot.response.OrderResponseDTO;
-import springboot.reuest.OrderRequestDTO;
+import springboot.request.OrderRequestDTO;
 
 import java.util.List;
 

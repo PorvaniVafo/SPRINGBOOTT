@@ -1,4 +1,4 @@
-package springboot.reuest;
+package springboot.request;
 
 import springboot.entity.Product;
 import springboot.entity.User;

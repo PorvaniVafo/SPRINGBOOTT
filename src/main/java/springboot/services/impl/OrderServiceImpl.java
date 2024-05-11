@@ -1,7 +1,7 @@
 package springboot.services.impl;
 
 import springboot.response.OrderResponseDTO;
-import springboot.reuest.OrderRequestDTO;
+import springboot.request.OrderRequestDTO;
 import springboot.entity.Order;
 import springboot.exceptions.GeneralException;
 import springboot.mappers.OrderMapper;
@@ -25,7 +25,7 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public OrderResponseDTO create(OrderRequestDTO orderRequestDTO) {
         Order order = orderMapper.toEntity(orderRequestDTO);
-        order = orderRepository.save(order);
+        orderRepository.save(order);
         return orderMapper.toDTO(order);
     }
 

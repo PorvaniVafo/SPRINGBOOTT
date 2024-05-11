@@ -9,7 +9,7 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import springboot.repositories.UserRepository;
 import springboot.response.UserResponseDTO;
-import springboot.reuest.UserRequestDTO;
+import springboot.request.UserRequestDTO;
 import springboot.services.impl.UserServiceImpl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

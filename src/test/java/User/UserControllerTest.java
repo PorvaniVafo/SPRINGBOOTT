@@ -1,7 +1,7 @@
 package User;
 
 import springboot.controllers.UserController;
-import springboot.reuest.UserRequestDTO;
+import springboot.request.UserRequestDTO;
 import springboot.response.UserResponseDTO;
 import springboot.services.UserService;
 import org.junit.jupiter.api.BeforeEach;

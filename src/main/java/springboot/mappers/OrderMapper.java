@@ -1,11 +1,13 @@
 package springboot.mappers;
 
-import org.mapstruct.Mapper;
 import springboot.response.OrderResponseDTO;
-import springboot.reuest.OrderRequestDTO;
+import springboot.request.OrderRequestDTO;
 import springboot.entity.Order;
+import springboot.entity.Product;
+import springboot.entity.User;
+import org.mapstruct.Mapper;
 
-@Mapper(componentModel = "spring")
+@Mapper(componentModel = "spring", uses = {User.class, Product.class})
 public interface OrderMapper {
 
     Order toEntity(OrderRequestDTO orderRequestDTO);

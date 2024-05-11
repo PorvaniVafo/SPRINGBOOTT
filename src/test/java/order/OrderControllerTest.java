@@ -2,7 +2,7 @@ package order;
 
 import springboot.controllers.OrderController;
 import springboot.response.OrderResponseDTO;
-import springboot.reuest.OrderRequestDTO;
+import springboot.request.OrderRequestDTO;
 import springboot.services.OrderService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
